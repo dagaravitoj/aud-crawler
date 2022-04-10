@@ -6,7 +6,7 @@ import csv
 import json
 import argparse
 import tqdm
-import youtube_dl
+import yt_dlp as youtube_dl
 import pandas as pd
 from glob import glob
 from pydub import AudioSegment
